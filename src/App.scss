@@ -1,0 +1,15 @@
+.container {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.dark-mode {
+  background-color: black;
+  min-height: 100vh;
+}
+.dark-mode h1 {
+  color: white;
+}

@@ -1,0 +1,45 @@
+.search {
+  display: flex;
+  align-items: center;
+  height:50px;
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: solid 4px #308d46;
+  background-color: red;
+  position: relative;
+  overflow: hidden;
+
+  .icon-search{
+    display: block;
+    font-size: 25px;
+    padding-left: 12px;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  input {
+    border: none;
+    line-height:16px;
+    height:100%;
+    width: 100%;
+    padding-left: 50px;
+    background-color: rgb(233, 233, 233);
+    
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+textarea {
+  border: none;
+  resize: none;
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+
+  &:focus {
+    outline: none;
+  }
+}
+
